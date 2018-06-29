@@ -12,7 +12,8 @@ for var i:=l to r do
   end;
 end;
 begin
-    readln(n,s);
+    readln(n);
+    readln(s);
     for var i:=1 to n do
       begin
       if n mod i = 0 then
